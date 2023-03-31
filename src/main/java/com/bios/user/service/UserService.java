@@ -13,6 +13,7 @@ import com.bios.user.repository.UserRepository;
 
 
 @Service
+@SuppressWarnings("unused")
 public class UserService {
 
 	@Autowired
