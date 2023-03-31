@@ -16,11 +16,11 @@ public class UserNewDTO implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 
-	@NotEmpty(message="Name is Required")
+	@NotEmpty(message="name is Required")
 	@Length(min=2, max=120, message="name length must be between 2 to 120 characters")
 	private String name;
 	
-	@NotEmpty(message="email required")
+	@NotEmpty(message="email is required")
 	@Email(message="Invalid Email")
 	private String email;
 	

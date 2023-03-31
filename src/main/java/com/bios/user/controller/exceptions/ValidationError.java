@@ -1,8 +1,13 @@
 package com.bios.user.controller.exceptions;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@AllArgsConstructor
+@NoArgsConstructor
 public class ValidationError extends StandardError {
 
 	private static final long serialVersionUID = 1L;
